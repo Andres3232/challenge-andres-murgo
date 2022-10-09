@@ -30,6 +30,13 @@ export class User {
     public setProductList(productList: Product[]): void {
         this.userProperties.productList = productList;
     }
+    public getEmail(): string {
+        return this.userProperties.email;
+    }
+
+    public setEmail(mail: string): void {
+        this.userProperties.email = mail;
+    }
 
     public isInterested(product: Product): boolean {
         if (product.isInterested() ) {

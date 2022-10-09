@@ -8,6 +8,9 @@ export class Product {
         private readonly productProperties: ProductProperties,
     ) { }
 
+    public getId(): number {
+        return this.productProperties.id
+    }
     public getName(): string {
         return this.productProperties.name
     }

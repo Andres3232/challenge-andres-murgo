@@ -9,7 +9,3 @@ export interface UserProperties {
      mood: 'triste' | 'melancolico' | 'contento'
      productList: Product[]
 }
-
-export interface Mood {
-     mood: 'triste' | 'melancolico' | 'contento'
-}
